@@ -14,7 +14,7 @@ export class OrbitCountsComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  result:number=10;
   countByType(type: string): number {
 	let count = 0;
 	if (this.satellites) {
